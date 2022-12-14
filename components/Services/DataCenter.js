@@ -78,8 +78,8 @@ function DataCenter({ section1, section2, section3, section4, section5 }) {
                   <div className="row pt-2 pb-2">
                      <div className="col-lg-12 text-center text-lg-left mt-2 mb-2">
                         <h1 className="text-white font-bold bottom-buffer-2point5rem">{section3?.heading}</h1>
-                        {section3 && section3?.descriptionSection.length > 0 &&
-                           section3.descriptionSection.map((item, index) =>
+                        {section3 && section3?.descriptionSection && section3?.descriptionSection.length > 0 &&
+                           section3?.descriptionSection.map((item, index) =>
                               <p key={index} className="text-white big mb-2 mt-2">{item.description}</p>
                            )}
                      </div>
