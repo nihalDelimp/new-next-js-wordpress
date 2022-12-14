@@ -27,9 +27,9 @@ const Header = () => (
             <ul className="navbar-nav main-nav flex-wrap">
               <li className="nav-item active">
                 <Link href="/" >
-                  <a className="nav-link">
-                    Home
-                  </a>
+                <a className="nav-link">
+                  Home
+                </a>
                 </Link>
               </li>
               <li className="nav-item dropdown navbarDropdownClass">
@@ -222,9 +222,9 @@ const Header = () => (
                             and managing up...
                           </p>
                           <Link href="/data-center/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -247,9 +247,9 @@ const Header = () => (
                             cybersecurity...
                           </p>
                           <Link href="/cybersecurity/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -295,9 +295,9 @@ const Header = () => (
                             software development to the next level...
                           </p>
                           <Link href="/applications/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -321,9 +321,9 @@ const Header = () => (
                             change...
                           </p>
                           <Link href="/consultation-services/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -523,9 +523,9 @@ const Header = () => (
                             organization needs a robust IT security solution...
                           </p>
                           <Link href="/gov-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -547,9 +547,9 @@ const Header = () => (
                             use, and manage technology...
                           </p>
                           <Link href="/healthcare-industry/">
-                            <a className="btn btn-primary" >
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary" >
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -571,9 +571,9 @@ const Header = () => (
                             Digital Solutions has a dedicated crew of...
                           </p>
                           <Link href="/finance-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -596,10 +596,10 @@ const Header = () => (
                             power our lives and even a small security breach on the
                             industry may cost all...
                           </p>
-                          <Link href="/energy-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <Link  href="/energy-industry/">
+                          <a className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -621,10 +621,10 @@ const Header = () => (
                             including business, student, parent, employee, donor,
                             card data, and more...
                           </p>
-                          <Link href="/education-industry/">
-                            <a href="/education-industry/" className="btn btn-primary">
-                              Learn More
-                            </a>
+                           <Link href="/education-industry/">
+                          <a href="/education-industry/" className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -645,9 +645,9 @@ const Header = () => (
                             services—often across a physical network—are...
                           </p>
                           <Link href="/communication-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -667,12 +667,12 @@ const Header = () => (
                             where quick expansion is challenging. It entails
                             striking the ideal balance between today's...
                           </p>
-                          <Link href="/enterprise-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <Link  href="/enterprise-industry/">
+                          <a className="btn btn-primary">
+                           Learn More
+                           </a>
                           </Link>
-
+                         
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -818,9 +818,9 @@ const Header = () => (
                             knowledge...
                           </p>
                           <Link href="/white-paper/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -844,7 +844,7 @@ const Header = () => (
                           <Link href="/industry-insights/">
                             <a className="btn btn-primary">Learn More</a>
                           </Link>
-
+                          
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -864,9 +864,9 @@ const Header = () => (
                             all in once place...
                           </p>
                           <Link href="/newsroom/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -887,9 +887,9 @@ const Header = () => (
                             alfanar Digital Solution experts.
                           </p>
                           <Link href="/blogs/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -1036,9 +1036,9 @@ const Header = () => (
                             the government and private sectors...
                           </p>
                           <Link href="/about-us/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -1059,9 +1059,9 @@ const Header = () => (
                             leadership and passionate, committed people...
                           </p>
                           <Link href="/our-team/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a  className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -1108,9 +1108,9 @@ const Header = () => (
                             your queries as soon as possible...
                           </p>
                           <Link href="/contactus/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
+                          <a className="btn btn-primary">
+                            Learn More
+                          </a>
                           </Link>
                         </div>
                         <img
@@ -1161,7 +1161,7 @@ const Header = () => (
             href="/"
           >
             <img
-              src="/images/logo-updated-color.png"
+             src ="/images/logo-updated-color.png"
               className="alfanar-logo"
               title="alfanar Digital Solution"
               alt="alfanar Digital Solution"
