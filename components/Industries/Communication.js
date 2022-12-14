@@ -111,7 +111,7 @@ function Communication({ communicationData }) {
                </div>
             </div>
          </section>
-         {/* <Footer /> */}
+         <Footer />
       </div>
    )
 }

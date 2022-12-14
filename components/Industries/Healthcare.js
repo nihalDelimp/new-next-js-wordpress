@@ -111,7 +111,7 @@ function Healthcare({ healthcareData }) {
                     </div>
                 </div>
             </section >
-            {/* <Footer /> */}
+            <Footer />
         </div >
     )
 }

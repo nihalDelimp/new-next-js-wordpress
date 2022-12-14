@@ -4,6 +4,19 @@ import Link from 'next/link';
 
 const Header = () => (
   <>
+    {/* <Head>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" defer></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" defer></script>
+      <script src='/static/owl.js' ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" defer></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.js' defer ></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.extensions.min.js' defer ></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src='/static/wow.min.js' defer></script>
+      <script src='/static/landing-page.js' defer></script>
+      <script src='/static/custom-fullpage-vertical.js' defer></script>
+    </Head> */}
     <header className="landing-page-header">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark px-lg-0 p-0">
@@ -51,8 +64,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/smart-solutions.png"
-                              />
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/smart-solutions.png" />
                               Smart Solutions
                             </a>
                             <ul className="navbar-nav flex-column secondary-nav pt-0 d-lg-none border-none mx-auto">
@@ -99,7 +111,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/data-centre.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/data-centre.png"
                               />
                               Data Center
                             </a>
@@ -116,7 +128,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/cybersecurity.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/cybersecurity.png"
                               />
                               Cybersecurity
                             </a>
@@ -133,7 +145,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/software-defending-network.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/software-defending-network.png"
                               />
                               Software Defending Network
                             </a>
@@ -150,7 +162,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/applications.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/applications.png"
                               />
                               Applications
                             </a>
@@ -167,7 +179,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/consultation-services.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/consultation-services.png"
                               />
                               Consultation Services
                             </a>
@@ -190,7 +202,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/Smart-Solutions.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/Smart-Solutions-1.png"
                           alt="Smart Solutions"
                         />
                       </div>
@@ -214,7 +226,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/Data-Centre.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/Data-Centre-1.png"
                           alt="Data Center"
                         />
                       </div>
@@ -237,7 +249,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/Cybersecurity.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/Cybersecurity-1.png"
                           alt="Cybersecurity"
                         />
                       </div>
@@ -262,7 +274,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/Software-Defending-Network.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/Software-Defending-Network-1.png"
                           alt="Software Defending Network"
                         />
                       </div>
@@ -285,7 +297,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/Applications.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/Applications-1.png"
                           alt="Applications"
                         />
                       </div>
@@ -311,7 +323,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/Consultation-Services.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/Consultation-Services-1.png"
                           alt="Consultation Services"
                         />
                       </div>
@@ -351,7 +363,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/government-semi-government.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/government-semi-government.png"
                               />
                               Government and Semi-government
                             </a>
@@ -399,7 +411,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/healthcare.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/healthcare.png"
                               />
                               Healthcare
                             </a>
@@ -416,7 +428,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/finance-and-banking.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/finance-and-banking.png"
                               />
                               Finance and Banking
                             </a>
@@ -433,7 +445,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/energy-utility.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/energy-utility.png"
                               />
                               Energy &amp; Utility
                             </a>
@@ -450,7 +462,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/education.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/education.png"
                               />
                               Education
                             </a>
@@ -467,7 +479,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/communication.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/communication.png"
                               />
                               Communication
                             </a>
@@ -484,7 +496,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/enterprise.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/enterprise.png"
                               />
                               Enterprise
                             </a>
@@ -513,7 +525,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/gov-header-img.png"
+                          src="/images/gov-header-img.png"
                           alt="Government and Semi-government"
                         />
                       </div>
@@ -537,7 +549,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/healthcare-header-img.png"
+                          src="/images/final-images/healthcare-header-img.png"
                           alt="Healthcare"
                         />
                       </div>
@@ -561,7 +573,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/finance-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/finance-header-img-1.png
+                          "
                           alt="Finance and Banking"
                         />
                       </div>
@@ -587,7 +600,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/energy-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/energy-header-img-1.png
+                          "
                           alt="Energy & Utility"
                         />
                       </div>
@@ -610,7 +624,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/education-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/education-header-img-1.png
+                          "
                           alt="Education"
                         />
                       </div>
@@ -633,7 +648,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/communication-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/communication-header-img-1.png
+                          "
                           alt="Communication"
                         />
                       </div>
@@ -656,7 +672,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/enterprise-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/enterprise-header-img-1.png
+                          "
                           alt="Enterprise"
                         />
                       </div>
@@ -696,7 +713,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/white-papers.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/white-papers.png"
                               />
                               White Papers
                             </a>
@@ -744,7 +761,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/industry-insights.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/industry-insights.png"
                               />
                               Industry Insights
                             </a>
@@ -761,7 +778,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/newsroom.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/newsroom.png"
                               />
                               Newsroom
                             </a>
@@ -778,7 +795,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/blogs.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/blogs.png"
                               />
                               Blogs
                             </a>
@@ -805,7 +822,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/whitepaper-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/whitepaper-header-img-1.png
+                          "
                           alt="White Papers"
                         />
                       </div>
@@ -827,7 +845,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/industry-insights-header-img-fix.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/industry-insights-header-img-fix-1.png
+                          "
                           alt="Industry Insights"
                         />
                       </div>
@@ -849,7 +868,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/newsroom-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/newsroom-header-img-1.png
+                          "
                           alt="Newsroom"
                         />
                       </div>
@@ -871,7 +891,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/blogs-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/blogs-header-img-1.png
+                          "
                           alt="Blogs"
                         />
                       </div>
@@ -911,7 +932,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/about-us.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/about-us.png"
                               />
                               About Us
                             </a>
@@ -959,7 +980,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/our-team.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/our-team.png"
                               />
                               Our Team
                             </a>
@@ -976,7 +997,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/careers.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/careers.png"
                               />
                               Careers
                             </a>
@@ -993,7 +1014,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/img/contact-us.png"
+                                src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/contact-us.png"
                               />
                               Contact Us
                             </a>
@@ -1020,7 +1041,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/aboutus-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/aboutus-header-img-1.png
+                          "
                           alt="About Us"
                         />
                       </div>
@@ -1042,7 +1064,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/ourteam-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/ourteam-header-img-1.png
+                          "
                           alt="Our Team"
                         />
                       </div>
@@ -1067,7 +1090,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/careers-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/careers-header-img-1.png
+                          "
                           alt="Careers"
                         />
                       </div>
@@ -1091,7 +1115,8 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/img/contactus-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/contactus-header-img-2.png
+                          "
                           alt="Contact Us"
                         />
                       </div>
@@ -1137,7 +1162,7 @@ const Header = () => (
             href="/"
           >
             <img
-              src="/img/logo-updated-color.png"
+              src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/logo-updated-color.png"
               className="alfanar-logo"
               title="alfanar Digital Solution"
               alt="alfanar Digital Solution"

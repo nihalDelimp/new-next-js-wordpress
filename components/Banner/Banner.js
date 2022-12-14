@@ -1,5 +1,5 @@
 
-import Footer from '../Footer/Footer';
+import Footer from '../Footer/WrapperFooter';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -130,11 +130,11 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                                     >
                                                         {item.images && item.images.length > 0 &&
                                                             item.images.map((item, index) =>
-                                                                <SwiperSlide key={index+1} ><div className="swiper-slide text-center">
+                                                                <SwiperSlide key={index + 1} ><div className="swiper-slide text-center">
                                                                     <img className="w-100" src={item.sourceUrl} />
                                                                 </div>
                                                                 </SwiperSlide>
-                                                                )}
+                                                            )}
                                                     </Swiper>
                                                 </div>
                                             </div>
@@ -183,7 +183,8 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
 
                 {/* <script src='/static/landing-page.js' defer></script> */}
                 {/* <script src='/static/custom-fullpage-vertical.js' defer></script> */}
-                {/* <Footer /> */}
+
+                <Footer />
             </div>
         </>
     );

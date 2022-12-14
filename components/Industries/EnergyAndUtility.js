@@ -111,7 +111,7 @@ function EnergyAndUtility({ energyData }) {
                     </div>
                 </div>
             </section>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

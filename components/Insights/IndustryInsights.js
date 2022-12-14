@@ -69,7 +69,7 @@ function IndustryInsights({ tabContainer, tabMenuItems, headerData }) {
                </div>
             </div>
          </section>
-         {/* <Footer /> */}
+         <Footer />
       </div>
    )
 }

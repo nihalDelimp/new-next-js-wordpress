@@ -54,7 +54,7 @@ function WhitePaper({tabContainer , tabMenuItems , headerData }) {
             </div>
          </div>
       </section>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Footer from '../Footer/Footer';
+import Footer from '../Footer/WrapperFooter';
 
 function SmartSolutions({ section1, section2, section3, section4 ,section5 }) {
    console.log('SmartSolutionsTTTTTTTTTTTTT1', section1)
@@ -7,7 +7,6 @@ function SmartSolutions({ section1, section2, section3, section4 ,section5 }) {
    console.log('SmartSolutionsTTTTTTTTTTTTT3', section3)
    console.log('SmartSolutionsTTTTTTTTTTTTT4', section4)
    console.log('SmartSolutionsTTTTTTTTTTTTT5', section5)
-
 
 
    useEffect(() => {
@@ -259,38 +258,39 @@ function SmartSolutions({ section1, section2, section3, section4 ,section5 }) {
                </div>
             </section>
          </section>
-         <section id="landing-page-footer-top-section" className="section bg-gradient fp-section fp-table active fp-completely fp-overflow">
+
+          <section id="landing-page-footer-top-section" className="section bg-gradient fp-section fp-table active fp-completely fp-overflow ">
             <div id="landing-page-footer-top-container" className="container-lg pb-4 pt-4 pb-lg-9 pt-lg-6">
                <div className="row equalRow">
                   <div className="col-lg-6 col-12">
                      <div className="row equalColumns h-100">
                         <div className="col-lg-7">
-                           <h1 className="font-weight-bold text-white bottom-buffer-2point5rem" style={{ fontSsize: '42px !important' }}>We’re Here to Help You</h1>
+                           <h1 className="font-weight-bold text-white bottom-buffer-2point5rem" style={{ fontSize: '42px !important' }}>We’re Here to Help You</h1>
                            <p className="text-white bottom-buffer-2point5rem">At alfanar Digital Solutions we value your comments and feedback! You are welcome to submit any questions about alfanar Digital Solutions or any of its services, we will handle your queries as soon as possible.</p>
                            <div className="align-bottom-content-lg "><a className="btn btn-primary" href="/contactus.html" alt="Get In Touch">Get in Touch</a></div>
                         </div>
                         <div className="col-lg-5 align-self-center text-lg-right text-center">
-                           <img className="w-100 mt-5 mb-5" src="/images/final-images/contactus-header-img.png" />
+                           <img className="w-100 mt-5 mb-5" src="https://alfanar-digital-solution.azurewebsites.net/public/final-images/contactus-header-img.png" />
                         </div>
                      </div>
                   </div>
                   <div className="col-lg-6 col-12">
                      <div className="row equalColumns h-100">
                         <div className="col-lg-7">
-                           <h1 className="font-weight-bold text-white bottom-buffer-2point5rem" style={{ fontSsize: '42px !important', minHeight: '100px' }}>Careers</h1>
-                           <p className="text-white bottom-buffer-2point5rem">Join our professional team and play a role timport Footer from './../Footer/Footer';
-                              o build what’s next. The future starts here</p>
+                           <h1 className="font-weight-bold text-white bottom-buffer-2point5rem" style={{ fontSize: "42px !important", minHeight: '100px' }}>Careers</h1>
+                           <p className="text-white bottom-buffer-2point5rem">Join our professional team and play a role to build what’s next. The future starts here</p>
                            <div className="align-bottom-content-lg "><a className="btn btn-primary" href="https://jobs.alfanar.com/alfanar/go/All-Openings/4442101/" target="_blank" alt="Discover Opportunities">Discover Opportunities</a></div>
                         </div>
                         <div className="col-lg-5 align-self-center text-lg-right text-center">
-                           <img className="w-100" src="/images/final-images/careers-header-img.png" />
+                           <img className="w-100" src="https://alfanar-digital-solution.azurewebsites.net/public/final-images/careers-header-img.png"/>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         {/* <Footer /> */}
+
+         <Footer />
       </div>
    )
 }

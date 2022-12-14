@@ -112,7 +112,7 @@ function Education({ educationData }) {
                </div>
             </div>
          </section>
-         {/* <Footer /> */}
+         <Footer />
       </div>
    )
 }

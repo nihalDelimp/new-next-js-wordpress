@@ -1,11 +1,17 @@
-import React from 'react'
-import Footer from '../Footer/Footer'
+import React from 'react';
+import Footer from '../Footer/WrapperFooter';
 
-function ApplicationsPage({ section1, section2, section3, section4 }) {
-   console.log("section2ApplicationsPage" , section2 )
+function ApplicationsPage({ section1, section2, section3, section4, section5 }) {
+   console.log('SmartSolutionsTTTTTTTTTTTTT1', section1)
+   console.log('SmartSolutionsTTTTTTTTTTTTT2', section2)
+   console.log('SmartSolutionsTTTTTTTTTTTTT3', section3)
+   console.log('SmartSolutionsTTTTTTTTTTTTT4', section4)
+   console.log('SmartSolutionsTTTTTTTTTTTTT5', section5)
+
    return (
       <div id="fullpage" style={{ backgroundColor: 'rgb(2,0,36)' }}>
-         <section id="applications-section_1" className="section bg-gradient bg-size-cover bg-no-repeat bg-center fp-section fp-table active fp-completely" style={{ backgroundImage: `url(${section2?.backgroundImage?.sourceUrl}) !important` }}>
+
+         <section id="applications-section_1" className="section bg-gradient bg-size-cover bg-no-repeat bg-center fp-section fp-table active fp-completely" style={{ backgroundImage: `url(${section1?.image?.sourceUrl}) !important` }}>
             <div id="applications-container" className="container-lg pt-4 pt-lg-8 pb-4">
                <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                   <section id="breadcrum-section">
@@ -22,11 +28,16 @@ function ApplicationsPage({ section1, section2, section3, section4 }) {
                   </section>
                   <div className="row mt-lg-2 text-center text-lg-left">
                      <div className="col-md-12 align-self-center">
-                        <h1 className="text-white font-bold bottom-buffer-1point5rem">Application Delivery Management</h1>
+                        <h1 className="text-white font-bold bottom-buffer-1point5rem">{section1?.heading}</h1>
                      </div>
                      <div className="col-lg-12 col-md-12 align-self-center">
-                        <h3 className="text-white font-bold mb-2">Accelerate Your Application Delivery and deliver at high speed with low risk</h3>
-                        <p className="text-white big mb-2 mt-2">alfanar Digital Solutions takes your business value software development to the next level.</p>
+                        {section1 && section1.descriptionWithSubHeading.length > 0 &&
+                           section1.descriptionWithSubHeading.map((item, index) =>
+                              <>
+                                 <h3 className="text-white font-bold mb-2">{item.heading}</h3>
+                                 <p className="text-white big mb-2 mt-2">{item.description}</p>
+                              </>
+                           )}
                      </div>
                   </div>
 
@@ -59,7 +70,7 @@ function ApplicationsPage({ section1, section2, section3, section4 }) {
             </div>
          </section>
          <section id="applications-section_3" className="section ">
-            <section id="" className="slide bg-gradient bg-size-cover bg-no-repeat bg-center fp-slide fp-table  fp-overflow" style={{ backgroundImage: `url(${section2?.backgroundImage?.sourceUrl}) !important` }}>
+            <section id="" className="slide bg-gradient bg-size-cover bg-no-repeat bg-center fp-slide fp-table  fp-overflow" style={{ backgroundImage: `url(${section3?.backgroundImage?.sourceUrl}) !important` }}>
                <div id="applications-container" className="container-lg">
                   <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                      <div className="row pt-2 pb-2">
@@ -80,7 +91,7 @@ function ApplicationsPage({ section1, section2, section3, section4 }) {
                   </div>
                </div>
             </section>
-            <section id="" className="slide bg-gradient bg-size-cover bg-no-repeat bg-center fp-slide fp-table  fp-overflow" style={{ backgroundImage: `url(${section2?.backgroundImage?.sourceUrl}) !important` }}>
+            <section id="" className="slide bg-gradient bg-size-cover bg-no-repeat bg-center fp-slide fp-table  fp-overflow" style={{ backgroundImage: `url(${section4?.backgroundImage?.sourceUrl}) !important` }}>
                <div id="applications-container" className="container-lg">
                   <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                      <div className="row pt-2 pb-2">
@@ -325,7 +336,7 @@ function ApplicationsPage({ section1, section2, section3, section4 }) {
                            <div className="align-bottom-content-lg "><a className="btn btn-primary" href="/contactus.html" alt="Get In Touch">Get in Touch</a></div>
                         </div>
                         <div className="col-lg-5 align-self-center text-lg-right text-center">
-                           <img className="w-100 mt-5 mb-5" src="/images/final-images/contactus-header-img.png" />
+                           <img className="w-100 mt-5 mb-5" src="https://alfanar-digital-solution.azurewebsites.net/public/final-images/contactus-header-img.png" />
                         </div>
                      </div>
                   </div>
@@ -337,16 +348,18 @@ function ApplicationsPage({ section1, section2, section3, section4 }) {
                            <div className="align-bottom-content-lg "><a className="btn btn-primary" href="https://jobs.alfanar.com/alfanar/go/All-Openings/4442101/" target="_blank" alt="Discover Opportunities">Discover Opportunities</a></div>
                         </div>
                         <div className="col-lg-5 align-self-center text-lg-right text-center">
-                           <img className="w-100" src="/images/final-images/careers-header-img.png"/>
+                           <img className="w-100" src="https://alfanar-digital-solution.azurewebsites.net/public/final-images/careers-header-img.png" />
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         {/* <Footer /> */}
+         <Footer />
       </div>
    )
 }
+
+
 
 export default ApplicationsPage

@@ -111,7 +111,7 @@ function Government({ govermentData }) {
                     </div>
                 </div>
             </section>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
