@@ -1,24 +1,16 @@
-import "../styles/bootstrap.min.css";
-import "../styles/animate.min.css";
-import "../styles/lineicons.css";
-import "../styles/header.css";
-import "../styles/footer.css";
-import "swiper/css/bundle";
+// import "../styles/bootstrap.min.css";
+// import "../styles/animate.min.css";
 // Global Style
-import "../styles/style.css";
-import "../styles/responsive.css";
-import "../styles/nihal.css";
-import "../styles/home.min.css";
-import "../styles/landing-page.css";
-import "../styles/theme.css";
-import "../styles/astra-custom.css";
-import "../styles/global-astra.css";
-
-
+// import "../styles/fullpage.css";
+// import "../styles/swiper.css";
+// import "../styles/theme.css";
+// import "../styles/landing-page.css";
+// import "../styles/all.min.css";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
-import Layout from "../components/_App/Layout";
-import GoTop from "../components/Shared/GoTop";
+// import Header from "../components/Header/Header";
+// import Footer from "../components/Footer/Footer";
 
+// window.jQuery = jQuery;
 export const client = new ApolloClient({
 	uri: `${process.env.WORDPRESS_URL}/graphql`,
 	cache: new InMemoryCache(),
@@ -26,13 +18,14 @@ export const client = new ApolloClient({
 
 function MyApp({ Component, pageProps }) {
 	return (
-		<Layout>
+		<>
+			{/* <Header /> */}
+			{/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" /> */}
 			<ApolloProvider client={client}>
 				<Component {...pageProps} />
-
-				<GoTop />
 			</ApolloProvider>
-		</Layout>
+			{/* <Footer /> */}
+		</>
 	);
 }
 

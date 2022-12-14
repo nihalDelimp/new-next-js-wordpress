@@ -1,15 +1,4 @@
-// import TopHeader from '../../../components/Navbar/TopHeader';
-// import Navbar from '../../../components/Navbar/Navbar';
-// import BlogArea from '../../../components/BlogArea/BlogArea';
-// import CallToAction from '../../../components/Common/CallToAction';
-// import Partner from '../../../components/Common/Partner';
-// import Pagebanner from '../../../components/Common/Pagebanner';
-// import { getPaginatedPosts } from '../../../query/PaginatedPost';
-// import Footer from '../../../components/Footer/Footer';
 
-// import getHomeData from '../../../query/homeQuery/homeData';
-
-// const Posts = ({ posts, pagination, homeData }) => {
 const Posts = () => {
 
   // const logoData = homeData.data.pageBy.homeLogo;
