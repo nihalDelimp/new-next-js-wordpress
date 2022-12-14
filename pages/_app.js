@@ -3,7 +3,7 @@
 // Global Style
 // import "../styles/fullpage.css";
 // import "../styles/swiper.css";
-// import "../styles/theme.css";
+import "../styles/theme.css";
 // import "../styles/landing-page.css";
 // import "../styles/all.min.css";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
