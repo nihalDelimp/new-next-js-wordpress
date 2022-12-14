@@ -1,3 +1,4 @@
+import Head from "next/head";
 import * as React from "react";
 import Link from 'next/link';
 
@@ -12,11 +13,11 @@ const Header = () => (
           >
             <ul className="navbar-nav main-nav flex-wrap">
               <li className="nav-item active">
-                <Link href="/" >
-                  <a className="nav-link">
-                    Home
-                  </a>
-                </Link>
+
+                <a href="/" className="nav-link">
+                  Home
+                </a>
+
               </li>
               <li className="nav-item dropdown navbarDropdownClass">
                 <a
@@ -185,9 +186,7 @@ const Header = () => (
                             that gather tremendous amounts of data from sensors and
                             other sources, using machine learning algorithms...
                           </p>
-                          <Link href="/smart-solutions/">
-                            <a className="btn btn-primary">Learn More</a>
-                          </Link>
+                          <a href="/smart-solutions/" className="btn btn-primary">Learn More</a>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -207,11 +206,11 @@ const Header = () => (
                             center services from consultation services, building,
                             and managing up...
                           </p>
-                          <Link href="/data-center/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/data-center/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -232,11 +231,9 @@ const Header = () => (
                             to your organization as one of the leading
                             cybersecurity...
                           </p>
-                          <Link href="/cybersecurity/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+                          <a href="/cybersecurity/" className="btn btn-primary">
+                            Learn More
+                          </a>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -280,11 +277,11 @@ const Header = () => (
                             alfanar Digital Solutions takes your business value
                             software development to the next level...
                           </p>
-                          <Link href="/applications/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/applications/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -306,11 +303,11 @@ const Header = () => (
                             rising technologies and seize the true potential of
                             change...
                           </p>
-                          <Link href="/consultation-services/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/consultation-services/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -508,11 +505,11 @@ const Header = () => (
                             severely impacting businesses of all kinds, government
                             organization needs a robust IT security solution...
                           </p>
-                          <Link href="/gov-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/gov-industry/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -532,11 +529,11 @@ const Header = () => (
                             platform that helps healthcare organizations to design,
                             use, and manage technology...
                           </p>
-                          <Link href="/healthcare-industry/">
-                            <a className="btn btn-primary" >
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/healthcare-industry/" className="btn btn-primary" >
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -556,11 +553,11 @@ const Header = () => (
                             your organization’s growth and reputation. alfanar
                             Digital Solutions has a dedicated crew of...
                           </p>
-                          <Link href="/finance-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/finance-industry/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -582,11 +579,11 @@ const Header = () => (
                             power our lives and even a small security breach on the
                             industry may cost all...
                           </p>
-                          <Link href="/energy-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/energy-industry/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -607,11 +604,9 @@ const Header = () => (
                             including business, student, parent, employee, donor,
                             card data, and more...
                           </p>
-                          <Link href="/education-industry/">
-                            <a href="/education-industry/" className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+                          <a href="/education-industry/" className="btn btn-primary">
+                            Learn More
+                          </a>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -630,11 +625,11 @@ const Header = () => (
                             entertainment, apps, and other information-related
                             services—often across a physical network—are...
                           </p>
-                          <Link href="/communication-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/communication-industry/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -653,11 +648,10 @@ const Header = () => (
                             where quick expansion is challenging. It entails
                             striking the ideal balance between today's...
                           </p>
-                          <Link href="/enterprise-industry/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/enterprise-industry/" className="btn btn-primary">
+                            Learn More
+                          </a>
 
                         </div>
                         <img
@@ -803,11 +797,11 @@ const Header = () => (
                             stronger as professionals &amp; experts. we put our
                             knowledge...
                           </p>
-                          <Link href="/white-paper/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/white-paper/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -827,9 +821,8 @@ const Header = () => (
                             President, or Analyst, the time you dedicate to your
                             organization is valuable. Your members count on you...
                           </p>
-                          <Link href="/industry-insights/">
-                            <a className="btn btn-primary">Learn More</a>
-                          </Link>
+
+                          <a href="/industry-insights/" className="btn btn-primary">Learn More</a>
 
                         </div>
                         <img
@@ -849,11 +842,10 @@ const Header = () => (
                             Find out all the latest news, events &amp; press release
                             all in once place...
                           </p>
-                          <Link href="/newsroom/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/newsroom/" className="btn btn-primary">
+                            Learn More
+                          </a>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -872,11 +864,10 @@ const Header = () => (
                             Tips, tricks, and digital solution inspiration from
                             alfanar Digital Solution experts.
                           </p>
-                          <Link href="/blogs/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/blogs/" className="btn btn-primary">
+                            Learn More
+                          </a>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -1021,11 +1012,11 @@ const Header = () => (
                             managed to build a large client data base including both
                             the government and private sectors...
                           </p>
-                          <Link href="/about-us/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/about-us/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -1044,11 +1035,10 @@ const Header = () => (
                             Behind every successful team is a strong culture, great
                             leadership and passionate, committed people...
                           </p>
-                          <Link href="/our-team/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/our-team/" className="btn btn-primary">
+                            Learn More
+                          </a>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -1093,11 +1083,11 @@ const Header = () => (
                             Digital Solutions or any of its services, we will handle
                             your queries as soon as possible...
                           </p>
-                          <Link href="/contactus/">
-                            <a className="btn btn-primary">
-                              Learn More
-                            </a>
-                          </Link>
+
+                          <a href="/contactus/" className="btn btn-primary">
+                            Learn More
+                          </a>
+
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
