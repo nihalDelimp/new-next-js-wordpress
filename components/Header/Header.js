@@ -51,7 +51,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/smart-solutions.png"
+                                src="/img/smart-solutions.png"
                               />
                               Smart Solutions
                             </a>
@@ -99,7 +99,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/data-centre.png"
+                                src="/img/data-centre.png"
                               />
                               Data Center
                             </a>
@@ -116,7 +116,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/cybersecurity.png"
+                                src="/img/cybersecurity.png"
                               />
                               Cybersecurity
                             </a>
@@ -133,7 +133,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/software-defending-network.png"
+                                src="/img/software-defending-network.png"
                               />
                               Software Defending Network
                             </a>
@@ -150,7 +150,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/applications.png"
+                                src="/img/applications.png"
                               />
                               Applications
                             </a>
@@ -167,7 +167,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/consultation-services.png"
+                                src="/img/consultation-services.png"
                               />
                               Consultation Services
                             </a>
@@ -190,7 +190,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/Smart-Solutions.png"
+                          src="/img/Smart-Solutions.png"
                           alt="Smart Solutions"
                         />
                       </div>
@@ -214,7 +214,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/smart-solutions/updated/Data-Centre.png"
+                          src="/img/Data-Centre.png"
                           alt="Data Center"
                         />
                       </div>
@@ -237,7 +237,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/smart-solutions/updated/Cybersecurity.png"
+                          src="/img/Cybersecurity.png"
                           alt="Cybersecurity"
                         />
                       </div>
@@ -262,7 +262,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/smart-solutions/updated/Software-Defending-Network.png"
+                          src="/img/Software-Defending-Network.png"
                           alt="Software Defending Network"
                         />
                       </div>
@@ -285,7 +285,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/smart-solutions/updated/Applications.png"
+                          src="/img/Applications.png"
                           alt="Applications"
                         />
                       </div>
@@ -311,7 +311,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/smart-solutions/updated/Consultation-Services.png"
+                          src="/img/Consultation-Services.png"
                           alt="Consultation Services"
                         />
                       </div>
@@ -351,7 +351,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/government-semi-government.png"
+                                src="/img/government-semi-government.png"
                               />
                               Government and Semi-government
                             </a>
@@ -399,7 +399,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/healthcare.png"
+                                src="/img/healthcare.png"
                               />
                               Healthcare
                             </a>
@@ -416,7 +416,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/finance-and-banking.png"
+                                src="/img/finance-and-banking.png"
                               />
                               Finance and Banking
                             </a>
@@ -433,7 +433,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/energy-utility.png"
+                                src="/img/energy-utility.png"
                               />
                               Energy &amp; Utility
                             </a>
@@ -450,7 +450,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/education.png"
+                                src="/img/education.png"
                               />
                               Education
                             </a>
@@ -467,7 +467,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/communication.png"
+                                src="/img/communication.png"
                               />
                               Communication
                             </a>
@@ -484,7 +484,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/enterprise.png"
+                                src="/img/enterprise.png"
                               />
                               Enterprise
                             </a>
@@ -513,7 +513,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/gov-header-img.png"
+                          src="/img/gov-header-img.png"
                           alt="Government and Semi-government"
                         />
                       </div>
@@ -537,7 +537,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/healthcare-header-img.png"
+                          src="/img/healthcare-header-img.png"
                           alt="Healthcare"
                         />
                       </div>
@@ -561,7 +561,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/finance-header-img.png"
+                          src="/img/finance-header-img.png"
                           alt="Finance and Banking"
                         />
                       </div>
@@ -587,7 +587,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/energy-header-img.png"
+                          src="/img/energy-header-img.png"
                           alt="Energy & Utility"
                         />
                       </div>
@@ -610,7 +610,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/education-header-img.png"
+                          src="/img/education-header-img.png"
                           alt="Education"
                         />
                       </div>
@@ -633,7 +633,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/communication-header-img.png"
+                          src="/img/communication-header-img.png"
                           alt="Communication"
                         />
                       </div>
@@ -656,7 +656,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/enterprise-header-img.png"
+                          src="/img/enterprise-header-img.png"
                           alt="Enterprise"
                         />
                       </div>
@@ -696,7 +696,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/white-papers.png"
+                                src="/img/white-papers.png"
                               />
                               White Papers
                             </a>
@@ -744,7 +744,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/industry-insights.png"
+                                src="/img/industry-insights.png"
                               />
                               Industry Insights
                             </a>
@@ -761,7 +761,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/newsroom.png"
+                                src="/img/newsroom.png"
                               />
                               Newsroom
                             </a>
@@ -778,7 +778,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/blogs.png"
+                                src="/img/blogs.png"
                               />
                               Blogs
                             </a>
@@ -805,7 +805,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/whitepaper-header-img.png"
+                          src="/img/whitepaper-header-img.png"
                           alt="White Papers"
                         />
                       </div>
@@ -827,7 +827,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/industry-insights-header-img-fix.png"
+                          src="/img/industry-insights-header-img-fix.png"
                           alt="Industry Insights"
                         />
                       </div>
@@ -849,7 +849,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/newsroom-header-img.png"
+                          src="/img/newsroom-header-img.png"
                           alt="Newsroom"
                         />
                       </div>
@@ -871,7 +871,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/blogs-header-img.png"
+                          src="/img/blogs-header-img.png"
                           alt="Blogs"
                         />
                       </div>
@@ -911,7 +911,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/about-us.png"
+                                src="/img/about-us.png"
                               />
                               About Us
                             </a>
@@ -959,7 +959,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/our-team.png"
+                                src="/img/our-team.png"
                               />
                               Our Team
                             </a>
@@ -976,7 +976,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/careers.png"
+                                src="/img/careers.png"
                               />
                               Careers
                             </a>
@@ -993,7 +993,7 @@ const Header = () => (
                             >
                               <img
                                 className="mega-menu-icon"
-                                src="/images/mega-menu-icon/contact-us.png"
+                                src="/img/contact-us.png"
                               />
                               Contact Us
                             </a>
@@ -1020,7 +1020,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/aboutus-header-img.png"
+                          src="/img/aboutus-header-img.png"
                           alt="About Us"
                         />
                       </div>
@@ -1042,7 +1042,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/ourteam-header-img.png"
+                          src="/img/ourteam-header-img.png"
                           alt="Our Team"
                         />
                       </div>
@@ -1067,7 +1067,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/careers-header-img.png"
+                          src="/img/careers-header-img.png"
                           alt="Careers"
                         />
                       </div>
@@ -1091,7 +1091,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/contactus-header-img.png"
+                          src="/img/contactus-header-img.png"
                           alt="Contact Us"
                         />
                       </div>
@@ -1137,7 +1137,7 @@ const Header = () => (
             href="/"
           >
             <img
-              src="/images/logo-updated-color.png"
+              src="/img/logo-updated-color.png"
               className="alfanar-logo"
               title="alfanar Digital Solution"
               alt="alfanar Digital Solution"
