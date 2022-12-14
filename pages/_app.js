@@ -8,7 +8,7 @@
 // import "../styles/all.min.css";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 // import Header from "../components/Header/Header";
-// import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 // window.jQuery = jQuery;
 export const client = new ApolloClient({
