@@ -1,7 +1,7 @@
 // import "../styles/bootstrap.min.css";
 // import "../styles/animate.min.css";
 // Global Style
-// import "../styles/fullpage.css";
+import "../styles/fullpage.css";
 // import "../styles/swiper.css";
 import "../styles/theme.css";
 // import "../styles/landing-page.css";
