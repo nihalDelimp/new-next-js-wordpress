@@ -22,7 +22,6 @@ function AboutDigitalSolutions(props) {
    return (
       <>
          <HeaderTwo />
-
          <div>
             <section id="about-us-section_1" className="wow fadeInUp  sectionsection bg-gradient bg-size-cover bg-no-repeat bg-center fp-section fp-table  fp-completely">
                <div id="about-us-container" className="container-lg pt-4 pb-4">
@@ -148,13 +147,12 @@ function AboutDigitalSolutions(props) {
                      <div className="col-lg-12 animate__animated animate__fadeInDown">
                         <Swiper
                            modules={[Navigation, Pagination, Scrollbar, A11y]}
-                           spaceBetween={2}
-                           slidesPerView={3}
+                           spaceBetween={0}
+                           slidesPerView={4}
                            navigation
-                           pagination={{ clickable: true }}
-                           scrollbar={{ draggable: true }}
-                           onSwiper={(swiper) => console.log(swiper)}
-                           onSlideChange={() => console.log('slide change')}
+                           loop={true}
+                           speed={5000}
+                           autoplay={true}
                         >
 
                            {testimonials.carouselItems && testimonials.carouselItems.length > 0 &&
@@ -189,13 +187,12 @@ function AboutDigitalSolutions(props) {
                      <div className="col-lg-12 animate__animated animate__fadeInDown">
                         <Swiper
                            modules={[Navigation, Pagination, Scrollbar, A11y]}
-                           spaceBetween={2}
-                           slidesPerView={3}
+                           spaceBetween={0}
+                           slidesPerView={4}
                            navigation
-                           pagination={{ clickable: true }}
-                           scrollbar={{ draggable: true }}
-                           onSwiper={(swiper) => console.log(swiper)}
-                           onSlideChange={() => console.log('slide change')}
+                           loop={true}
+                           speed={5000}
+                           autoplay
                         >
                            {ourPartners.carouselImages && ourPartners.carouselImages.length > 0 &&
                               ourPartners.carouselImages.map((item, index) =>
@@ -241,13 +238,12 @@ function AboutDigitalSolutions(props) {
                      <div className="col-lg-12 animate__animated animate__fadeInDown">
                         <Swiper
                            modules={[Navigation, Pagination, Scrollbar, A11y]}
-                           spaceBetween={2}
-                           slidesPerView={3}
+                           spaceBetween={0}
+                           slidesPerView={4}
                            navigation
-                           pagination={{ clickable: true }}
-                           scrollbar={{ draggable: true }}
-                           onSwiper={(swiper) => console.log(swiper)}
-                           onSlideChange={() => console.log('slide change')}
+                           loop={true}
+                           speed={5000}
+                           autoplay
                         >
                            {ourTopClients.carouselImages && ourTopClients.carouselImages.length > 0 &&
                               ourTopClients.carouselImages.map((item, index) =>
