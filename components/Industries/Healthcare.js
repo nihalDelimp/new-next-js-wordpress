@@ -40,7 +40,7 @@ function Healthcare({ healthcareData }) {
                             <h1 className="text-primary font-bold  bottom-buffer-1point5rem">
                                 {healthcareData[1]?.heading}
                             </h1>
-                            <p className="extra-large" style={{ color: "#808080" }}>{healthcareData[1]?.description}</p>
+                            <p className="extra-large">{healthcareData[1]?.description}</p>
                         </div>
                         <div className="col-lg-6 wow slideInLeft  pl-lg-8" data-wow-duration="2s" data-wow-delay="250ms">
                             {healthcareData[1]?.listItems && healthcareData[1]?.listItems.length > 0 &&
@@ -70,7 +70,7 @@ function Healthcare({ healthcareData }) {
                     <div className="row">
                         {healthcareData[2].cardBox && healthcareData[2].cardBox.length > 0 &&
                             healthcareData[2].cardBox.map((item, index) =>
-                                <div key={index + 1} className="col-lg-4 text-center text-white pb-4 pt-4 wow fadeInUp" data-wow-delay="1s">
+                                <div key={index + 1} className="col-lg-3 text-center text-white pb-4 pt-4 wow fadeInUp" data-wow-delay="1s">
                                     <div className="p-4 h-100" style={{ border: "2px solid white" }}>
                                         <p><img className="img-fluid gov-icon-image" src={item.image?.sourceUrl} /></p>
                                         <p className="text-white extra-big pb-2 pt-2">{item?.description}</p>

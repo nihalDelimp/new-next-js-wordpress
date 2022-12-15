@@ -2,7 +2,7 @@ import * as React from "react";
 
 const Header = () => (
   <>
-    <header className="landing-page-header">
+    <header className="landing-page-header fp-header">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark px-lg-0 p-0">
           <div

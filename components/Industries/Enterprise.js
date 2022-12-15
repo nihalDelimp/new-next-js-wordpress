@@ -70,12 +70,30 @@ function Enterprise({enterPriseData}) {
                <div className="row">
                   {enterPriseData[2]?.cardBox && enterPriseData[2]?.cardBox.length > 0 &&
                      enterPriseData[2].cardBox.map((item, index) =>
+                     index<=2 && (
                         <div key={index + 1} className="col-lg-4 text-center text-white pb-4 pt-4 wow fadeInUp" data-wow-delay="1s">
                            <div className="p-4 h-100" style={{ border: "2px solid white" }}>
                               <p><img className="img-fluid gov-icon-image" src={item.image?.sourceUrl} /></p>
                               <p className="text-white extra-big pb-2 pt-2">{item?.description}</p>
                            </div>
-                        </div>)}
+                        </div>
+                        )
+                     )
+                  }
+               </div>
+               <div className="row justify-content-center">
+                  {enterPriseData[2]?.cardBox && enterPriseData[2]?.cardBox.length > 0 &&
+                     enterPriseData[2].cardBox.map((item, index) =>
+                     index >=3&&index<=4 && (
+                        <div key={index + 1} className="col-lg-4 text-center text-white pb-4 pt-4 wow fadeInUp" data-wow-delay="1s">
+                           <div className="p-4 h-100" style={{ border: "2px solid white" }}>
+                              <p><img className="img-fluid gov-icon-image" src={item.image?.sourceUrl} /></p>
+                              <p className="text-white extra-big pb-2 pt-2">{item?.description}</p>
+                           </div>
+                        </div>
+                        )
+                     )
+                  }
                </div>
             </div>
          </section>

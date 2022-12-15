@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import CommonFooter  from '../CommonFooter';
+
 
 function SoftwareNetwork() {
   return (
