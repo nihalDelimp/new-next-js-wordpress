@@ -221,7 +221,7 @@ function WrapperFooter() {
                                 <div className="col-lg-12 col-md-12 col-12 d-flex flex-md-row flex-column align-items-center justify-content-lg-start justify-content-center">
                                     <img
                                         className="nav-brand my-md-0 my-3 alfanar-logo-footer"
-                                        src="/images/logo-updated-white.png"
+                                        src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/logo-updated-white.png"
                                         alt="alfanar Digital Solution"
                                     />
                                     <p className="copyright-text text-md-left font-weight-medium mb-0 mx-4">
