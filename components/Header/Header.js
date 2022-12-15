@@ -1,22 +1,7 @@
-import Head from "next/head";
 import * as React from "react";
-import Link from 'next/link';
 
 const Header = () => (
   <>
-    {/* <Head>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" defer></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" defer></script>
-      <script src='/static/owl.js' ></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" defer></script>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.js' defer ></script>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.extensions.min.js' defer ></script>
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-      <script src='/static/wow.min.js' defer></script>
-      <script src='/static/landing-page.js' defer></script>
-      <script src='/static/custom-fullpage-vertical.js' defer></script>
-    </Head> */}
     <header className="landing-page-header">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark px-lg-0 p-0">
@@ -525,7 +510,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/gov-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/gov-header-img.png"
                           alt="Government and Semi-government"
                         />
                       </div>
@@ -549,7 +534,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="/images/final-images/healthcare-header-img.png"
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/healthcare-header-img.png"
                           alt="Healthcare"
                         />
                       </div>
