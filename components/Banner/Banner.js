@@ -3,7 +3,6 @@ import Footer from '../Footer/WrapperFooter';
 import Header from '../Header/Header';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Fullpage, Slide, HorizontalSlider } from 'fullpage-react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
