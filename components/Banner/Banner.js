@@ -4,9 +4,16 @@ import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Header from '../Header/Header';
-
+import { useEffect, useState } from 'react';
 
 const Banner = ({ banner, video, references, footerSection, singleImageData }) => {
+    const [innerHeight, setinnerHeight] = useState(0);
+    useEffect(() => {
+        if (typeof window !== undefined) {
+            setinnerHeight(window.innerHeight)
+        }
+    }, []);
+
     return (
         <>
             <Header />
@@ -27,7 +34,8 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                             <section
                                 className="section bg-size-cover bg-no-repeat bg-center"
                             >
-                                <img src={singleImageData[0].singleImage.sourceUrl} style={{ height: "100vh" }} />
+                                <iframe src="https://yourstory.click/home-hero/" width="100%"
+                                    height={innerHeight}></iframe>
                             </section>
                             {
                                 banner.map((item) => (
