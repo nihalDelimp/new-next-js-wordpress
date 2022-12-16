@@ -24,7 +24,7 @@ function CyberSecurity({ section1, section2, section3, section4, section5 }) {
             render={() => {
                return (
                   <>
-                     <section className="section bg-gradient bg-size-cover bg-no-repeat bg-center " style={{ backgroundImage: `url(${section1?.backgroundImage?.sourceUrl}) !important` }}>
+                     <section className={`section active bg-gradient bg-size-cover bg-no-repeat bg-center ${section1?.bgImageName}`}>
                         <div id="cybersecurity-container" className="container-lg pt-4 pt-lg-8 pb-4">
                            <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                               <section id="breadcrum-section">
@@ -52,7 +52,7 @@ function CyberSecurity({ section1, section2, section3, section4, section5 }) {
                         </div>
                      </section >
 
-                     <section className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section2?.backgroundImage?.sourceUrl}) !important` }}>
+                     <section className={`section bg-gradient bg-size-cover bg-no-repeat bg-center ${section2?.bgImageName}`}>
                         <div id="cybersecurity-container" className="container-lg">
                            <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                               <div className="row pt-2 pb-2">
@@ -68,7 +68,7 @@ function CyberSecurity({ section1, section2, section3, section4, section5 }) {
                         </div>
                      </section>
 
-                     <section id="cybersecurity-section_3" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section3?.backgroundImage?.sourceUrl}) !important` }}>
+                     <section id="cybersecurity-section_3" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center ${section3?.bgImageName}`}>
                         <div id="cybersecurity-container" className="container-lg">
                            <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                               <div className="row pt-2 pb-2">
@@ -84,7 +84,7 @@ function CyberSecurity({ section1, section2, section3, section4, section5 }) {
                         </div>
                      </section>
 
-                     <section className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section4?.backgroundImage?.sourceUrl}) !important` }}>
+                     <section className={`section bg-gradient bg-size-cover bg-no-repeat bg-center ${section4?.bgImageName}`}>
                         <div id="cybersecurity-container" className="container-lg">
                            <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                               <div className="row pt-2 pb-2">

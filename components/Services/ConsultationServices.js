@@ -25,7 +25,7 @@ function ConsultationServices({ section1, section2, section3, section4, section5
             render={() => {
                return (
                   <>
-                     <section className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section1?.backgroundImage?.sourceUrl}) !important` }}>
+                     <section className={`section active bg-gradient bg-size-cover bg-no-repeat bg-center ${section1?.bgImageName}`}>
                         <div id="consultation-services-container" className="container-lg pt-4 pt-lg-8 pb-4">
                            <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                               <section id="breadcrum-section">

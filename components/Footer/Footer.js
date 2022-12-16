@@ -26,14 +26,19 @@ function Footer() {
 
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/data-center" className="text-white font-normal pb-1">
+                                            <Link href="/data-center">
+                                            <a  className="text-white font-normal pb-1">
                                                 Data Center
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/cybersecurity" className="text-white font-normal pb-1">
+
+                                            <Link href="/cybersecurity"  >
+                                            <a className="text-white font-normal pb-1">
                                                 Cyber Security
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
                                             <Link href="/software-defending-network">
@@ -43,14 +48,18 @@ function Footer() {
                                             </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/applications" className="text-white font-normal pb-1">
+                                            <Link href="/applications">
+                                            <a  className="text-white font-normal pb-1">
                                                 Applications
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/consultation-services" className="text-white font-normal pb-1">
+                                            <Link href="/consultation-services">
+                                            <a  className="text-white font-normal pb-1">
                                                 Consultation Services
                                             </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -60,39 +69,54 @@ function Footer() {
                                     </h2>
                                     <ul className="nav footer-services-nav fill flex-column">
                                         <li className="nav-item my-1">
-                                            <a href="/gov-industry" className="text-white font-normal pb-1">
+                                        <Link href="/gov-industry" >
+                                            <a  className="text-white font-normal pb-1">
                                                 Government &amp; Semi-Government
                                             </a>
+                                            </Link>
+                                            
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/healthcare-industry" className="text-white font-normal pb-1">
+                                            <Link href="/healthcare-industry">
+                                            <a  className="text-white font-normal pb-1">
                                                 Healthcare
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/finance-industry" className="text-white font-normal pb-1">
+                                            <Link href="/finance-industry">
+                                            <a  className="text-white font-normal pb-1">
                                                 Finance &amp; Banking
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/energy-industry" className="text-white font-normal pb-1">
+                                            <Link  href="/energy-industry">
+                                            <a  className="text-white font-normal pb-1">
                                                 Energy &amp; Utility
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/education-industry" className="text-white font-normal pb-1">
+                                            <Link  href="/education-industry">
+                                            <a className="text-white font-normal pb-1">
                                                 Education
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/communication-industry" className="text-white font-normal pb-1">
+                                            <Link href="/communication-industry">
+                                            <a  className="text-white font-normal pb-1">
                                                 Communication
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/enterprise-industry" className="text-white font-normal pb-1">
+                                            <Link href="/enterprise-industry">
+                                            <a  className="text-white font-normal pb-1">
                                                 Enterprise
                                             </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -100,24 +124,32 @@ function Footer() {
                                     <h2 className="small-heading text-grey mb-4 font-bold">Insights</h2>
                                     <ul className="nav footer-services-nav fill flex-column">
                                         <li className="nav-item my-1">
-                                            <a href="/white-paper" className="text-white font-normal pb-1">
+                                            <Link href="/white-paper" >
+                                            <a className="text-white font-normal pb-1">
                                                 White Paper
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/industry-insights" className="text-white font-normal pb-1">
+                                            <Link href="/industry-insights" >
+                                            <a className="text-white font-normal pb-1">
                                                 Industry Insights
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/newsroom" className="text-white font-normal pb-1">
+                                            <Link href="/newsroom">
+                                            <a  className="text-white font-normal pb-1">
                                                 Newsroom
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/blogs" className="text-white font-normal pb-1">
+                                            <Link href="/blogs">
+                                            <a  className="text-white font-normal pb-1">
                                                 Blogs
                                             </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -125,19 +157,23 @@ function Footer() {
                                     <h2 className="small-heading text-grey mb-4 font-bold">About Us</h2>
                                     <ul className="nav footer-services-nav fill flex-column">
                                         <li className="nav-item my-1">
-                                            <a href="/about-us" className="text-white font-normal pb-1">
+                                            <Link  href="/about-us" >
+                                            <a  className="text-white font-normal pb-1">
                                                 About alfanar Digital Solutions
                                             </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item my-1">
-                                            <a href="/our-team" className="text-white font-normal pb-1">
+                                            <Link href="/our-team">
+                                            <a  className="text-white font-normal pb-1">
                                                 Our Team
                                             </a>
+                                            </Link>
                                         </li>
                                         {/* <li class="nav-item my-1"><a href="/gov-industry.html" class="text-white font-normal pb-1">Governance</a></li> */}
                                         <li className="nav-item my-1">
                                             <a
-                                                href="https://jobs.alfanar.com/alfanar/go/All-Openings/4442101/"
+                                               href="https://jobs.alfanar.com/alfanar/go/All-Openings/4442101/"
                                                 target="_blank"
                                                 className="text-white font-normal pb-1"
                                             >
@@ -145,11 +181,12 @@ function Footer() {
                                             </a>
                                         </li>
                                         <li className="nav-item my-1">
-                                            {/* <Link href="/contactus"> */}
-                                            <a href="/contactus" className="text-white font-normal pb-1">
+                                            <Link href="/contactus">
+                                            <a  className="text-white font-normal pb-1">
                                                 Contact Us
                                             </a>
-                                            {/* </Link> */}
+                                            </Link>
+
                                         </li>
                                     </ul>
                                 </div>
@@ -238,6 +275,9 @@ function Footer() {
                     </div>
                 </div>
             </section>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" defer></script>
 
         </>
     )

@@ -184,7 +184,9 @@ const Header = () => (
                             that gather tremendous amounts of data from sensors and
                             other sources, using machine learning algorithms...
                           </p>
-                          <a href="/smart-solutions/" className="btn btn-primary">Learn More</a>
+                          <Link href="/smart-solutions" >
+                          <a  className="btn btn-primary">Learn More</a>
+                          </Link >
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -204,10 +206,11 @@ const Header = () => (
                             center services from consultation services, building,
                             and managing up...
                           </p>
-
-                          <a href="/data-center/" className="btn btn-primary">
+                          <Link href="/data-center/" >
+                          <a className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link >
 
                         </div>
                         <img
@@ -229,9 +232,11 @@ const Header = () => (
                             to your organization as one of the leading
                             cybersecurity...
                           </p>
-                          <a href="/cybersecurity/" className="btn btn-primary">
+                          <Link href="/cybersecurity/"> 
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
@@ -275,10 +280,11 @@ const Header = () => (
                             alfanar Digital Solutions takes your business value
                             software development to the next level...
                           </p>
-
-                          <a href="/applications/" className="btn btn-primary">
+                          <Link href="/applications" >
+                          <a className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
@@ -301,10 +307,11 @@ const Header = () => (
                             rising technologies and seize the true potential of
                             change...
                           </p>
-
-                          <a href="/consultation-services/" className="btn btn-primary">
+                          <Link href="/consultation-services">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
@@ -503,10 +510,11 @@ const Header = () => (
                             severely impacting businesses of all kinds, government
                             organization needs a robust IT security solution...
                           </p>
-
-                          <a href="/gov-industry/" className="btn btn-primary">
+                          <Link href="/gov-industry">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
@@ -527,10 +535,11 @@ const Header = () => (
                             platform that helps healthcare organizations to design,
                             use, and manage technology...
                           </p>
-
-                          <a href="/healthcare-industry/" className="btn btn-primary" >
+                          <Link href="/healthcare-industry">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
@@ -551,16 +560,16 @@ const Header = () => (
                             your organization’s growth and reputation. alfanar
                             Digital Solutions has a dedicated crew of...
                           </p>
-
-                          <a href="/finance-industry/" className="btn btn-primary">
+                          <Link href="/finance-industry">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/finance-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/finance-header-img-1.png"
                           alt="Finance and Banking"
                         />
                       </div>
@@ -579,9 +588,11 @@ const Header = () => (
                             industry may cost all...
                           </p>
 
-                          <a href="/energy-industry/" className="btn btn-primary">
+                          <Link href="/energy-industry">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
@@ -604,14 +615,15 @@ const Header = () => (
                             including business, student, parent, employee, donor,
                             card data, and more...
                           </p>
-                          <a href="/education-industry/" className="btn btn-primary">
+                          <Link href="/education-industry" >
+                          <a className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/education-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/education-header-img-1.png"
                           alt="Education"
                         />
                       </div>
@@ -626,16 +638,16 @@ const Header = () => (
                             entertainment, apps, and other information-related
                             services—often across a physical network—are...
                           </p>
-
-                          <a href="/communication-industry/" className="btn btn-primary">
+                          <Link href="/communication-industry">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/communication-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/communication-header-img-1.png"
                           alt="Communication"
                         />
                       </div>
@@ -650,16 +662,16 @@ const Header = () => (
                             where quick expansion is challenging. It entails
                             striking the ideal balance between today's...
                           </p>
-
-                          <a href="/enterprise-industry/" className="btn btn-primary">
+                          <Link href="/enterprise-industry">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/enterprise-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/enterprise-header-img-1.png"
                           alt="Enterprise"
                         />
                       </div>
@@ -800,16 +812,16 @@ const Header = () => (
                             stronger as professionals &amp; experts. we put our
                             knowledge...
                           </p>
-
-                          <a href="/white-paper/" className="btn btn-primary">
+                          <Link  href="/white-paper">
+                          <a className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/whitepaper-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/whitepaper-header-img-1.png"
                           alt="White Papers"
                         />
                       </div>
@@ -825,14 +837,13 @@ const Header = () => (
                             President, or Analyst, the time you dedicate to your
                             organization is valuable. Your members count on you...
                           </p>
-
-                          <a href="/industry-insights/" className="btn btn-primary">Learn More</a>
-
+                          < Link href="/industry-insights">
+                          <a  className="btn btn-primary">Learn More</a>
+                          </Link>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/industry-insights-header-img-fix-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/industry-insights-header-img-fix-1.png"
                           alt="Industry Insights"
                         />
                       </div>
@@ -847,15 +858,15 @@ const Header = () => (
                             Find out all the latest news, events &amp; press release
                             all in once place...
                           </p>
-
-                          <a href="/newsroom/" className="btn btn-primary">
+                          <Link href="/newsroom">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/newsroom-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/newsroom-header-img-1.png"
                           alt="Newsroom"
                         />
                       </div>
@@ -870,15 +881,15 @@ const Header = () => (
                             Tips, tricks, and digital solution inspiration from
                             alfanar Digital Solution experts.
                           </p>
-
-                          <a href="/blogs/" className="btn btn-primary">
+                          <Link href="/blogs">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/blogs-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/blogs-header-img-1.png"
                           alt="Blogs"
                         />
                       </div>
@@ -1019,16 +1030,16 @@ const Header = () => (
                             managed to build a large client data base including both
                             the government and private sectors...
                           </p>
-
-                          <a href="/about-us/" className="btn btn-primary">
+                          <Link href="/about-us">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
 
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/aboutus-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/aboutus-header-img-1.png"
                           alt="About Us"
                         />
                       </div>
@@ -1043,15 +1054,15 @@ const Header = () => (
                             Behind every successful team is a strong culture, great
                             leadership and passionate, committed people...
                           </p>
-
-                          <a href="/our-team/" className="btn btn-primary">
+                          <Link  href="/our-team">
+                          <a  className="btn btn-primary">
                             Learn More
                           </a>
+                          </Link>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/ourteam-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/ourteam-header-img-1.png"
                           alt="Our Team"
                         />
                       </div>
@@ -1076,8 +1087,7 @@ const Header = () => (
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/careers-header-img-1.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/careers-header-img-1.png"
                           alt="Careers"
                         />
                       </div>
@@ -1093,16 +1103,15 @@ const Header = () => (
                             Digital Solutions or any of its services, we will handle
                             your queries as soon as possible...
                           </p>
-
-                          <a href="/contactus/" className="btn btn-primary">
+                          < Link href="/contactus">
+                          <a className="btn btn-primary">
                             Learn More
                           </a>
-
+                          </Link>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
-                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/contactus-header-img-2.png
-                          "
+                          src="https://dev-acf-testing.pantheonsite.io/wp-content/uploads/2022/12/contactus-header-img-2.png"
                           alt="Contact Us"
                         />
                       </div>

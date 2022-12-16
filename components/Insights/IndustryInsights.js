@@ -9,7 +9,7 @@ function IndustryInsights({ tabContainer, tabMenuItems, headerData }) {
       <>
          <HeaderTwo />
          <div >
-            <section id="industry-insights-section_1" className="wow fadeInUp  sectionsection bg-gradient bg-size-cover bg-no-repeat bg-center fp-section fp-table  fp-completely">
+            <section id="industry-insights-section_1" className="wow fadeInUp section bg-gradient bg-size-cover bg-no-repeat bg-center fp-section fp-table  fp-completely">
                <div id="industry-insights-container" className="container-lg pt-4 pb-4">
                   <div className="row pt-8 pb-4 pt-lg-1 pb-lg-1">
                      <div className="col-lg-12 text-left">
