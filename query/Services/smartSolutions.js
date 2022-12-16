@@ -2,8 +2,8 @@ import { gql } from "@apollo/client";
 import { client } from "../config";
 
 const getSmartSolutionData = async () => {
-    const smartSolutionData = await client.query({
-        query: gql`
+  const smartSolutionData = await client.query({
+    query: gql`
       query MyQuery {
         pageBy(uri: "${process.env.WORDPRESS_URL}/index.php/smart-solutions") {     
      
@@ -37,6 +37,7 @@ const getSmartSolutionData = async () => {
         }
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection2 {
           fieldGroupName
+          bgImageName
           backgroundImage {
             sourceUrl
           }
@@ -51,6 +52,7 @@ const getSmartSolutionData = async () => {
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection1 {
           fieldGroupName
           heading
+          bgImageName
           backgroundImage {
             sourceUrl
           }
@@ -64,6 +66,7 @@ const getSmartSolutionData = async () => {
         }
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsTextSlider {
           fieldGroupName
+          bgImageName
           sliderItems {
             sliderItemsContent {
               ... on Page_Servicessection_ServicesContent_ServicesSolutionsTextSlider_sliderItems_SliderItemsContent_HeadingOne {
@@ -96,8 +99,8 @@ const getSmartSolutionData = async () => {
         }
       }
     `,
-    });
-    return smartSolutionData;
+  });
+  return smartSolutionData;
 };
 
 export default getSmartSolutionData;

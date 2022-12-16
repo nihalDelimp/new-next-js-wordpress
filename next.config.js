@@ -17,6 +17,11 @@ const nextConfig = {
 			"https://dev-acf-testing.pantheonsite.io/graphql",
 		WORDPRESS_URL: "https://dev-acf-testing.pantheonsite.io",
 	},
+	// env: {
+	// 	WORDPRESS_GRAPHQL_ENDPOINT:
+	// 		"https://wordpress-next-webapp.azurewebsites.net/graphql",
+	// 	WORDPRESS_URL: "https://wordpress-next-webapp.azurewebsites.net",
+	// },
 };
 
 module.exports = nextConfig;

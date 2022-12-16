@@ -9,6 +9,7 @@ import 'swiper/css/scrollbar';
 import HeaderTwo from '../Header/HeaderTwo';
 
 function Government({ govermentData }) {
+    console.log(govermentData, "govermentDatagovermentData")
     return (
         <>
             <HeaderTwo />

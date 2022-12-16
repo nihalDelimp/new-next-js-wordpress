@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 
 
 function SmartSolutions({ section1, section2, section3, section4, section5 }) {
+
     console.log('SmartSolutionsTTTTTTTTTTTTT1', section1)
     console.log('SmartSolutionsTTTTTTTTTTTTT2', section2)
     console.log('SmartSolutionsTTTTTTTTTTTTT3', section3)
@@ -14,7 +15,11 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
 
     // console.log('section1' , section1)
     return (
-        <><Header />
+        <>
+
+            {/* <div className={section1.bgImageName}>Nihal</div> */}
+
+            <Header />
             <ReactFullpage
                 licenseKey='G4K1J-NS516-K5W16-MJ63I-NYLVP'
                 responsiveWidth={1024}
@@ -29,7 +34,7 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
                 render={() => {
                     return (
                         <>
-                            <section id="smart-solutions-section_1" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section1?.backgroundImage?.sourceUrl}) !important` }}>
+                            <section id="smart-solutions-section_1" className={`section active bg-gradient bg-size-cover bg-no-repeat bg-center ${section1.bgImageName}`}>
                                 <div id="smart-solutions-container" className="container-lg pt-4 pb-4">
                                     <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                                         <section id="breadcrum-section">
@@ -55,7 +60,7 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
                             </section>
 
 
-                            <section id="smart-solutions-section_2" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section2?.backgroundImage?.sourceUrl}) !important` }} >
+                            <section id="smart-solutions-section_2" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center  ${section2.bgImageName}`} >
 
                                 <section id="" className="slide slide bg-size-cover bg-no-repeat fp-slide"  >
                                     <div id="smart-solutions-container" className="container-lg">

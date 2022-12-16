@@ -11,6 +11,8 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+			<link rel="stylesheet" href="https://dev-acf-testing.pantheonsite.io/wp-content/themes/siard-wp-theme/inc/custom-styles.css?ver=1.0.0
+" />
 			<ApolloProvider client={client}>
 				<Component {...pageProps} />
 			</ApolloProvider>

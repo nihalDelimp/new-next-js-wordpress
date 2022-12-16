@@ -88,7 +88,7 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                 </div>
                             </section >
 
-                            <section id="landing-page-references-section" className="section bg-white fp-section fp-table fp-completely" data-fp-styles="null" >
+                            <section id="landing-page-references-section" className="section bg-white fp-section" data-fp-styles="null" >
                                 <div id="landing-page-references-container" className="container-lg pb-4 pt-4 pb-lg-6 pt-lg-6">
                                     <div className="row pt-2 pb-2">
                                         {references && references.length > 0 && references.map((ele, index) =>
@@ -157,7 +157,7 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                 </div>
                             </section>
 
-                            <section id="landing-page-footer-top-section" style={{ backgroundColor: 'rgb(2,0,36)' }} className="section bg-gradient fp-section fp-table  fp-completely" data-fp-styles="null" >
+                            <section id="landing-page-footer-top-section" style={{ backgroundColor: 'rgb(2,0,36)' }} className="section bg-gradient " data-fp-styles="null" >
                                 <div id="landing-page-footer-top-container" className="container-lg pb-4 pt-4 pb-lg-9 pt-lg-6">
                                     <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                                         <div className="row equalRow">

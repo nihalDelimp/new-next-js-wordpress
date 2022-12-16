@@ -18,9 +18,12 @@ function Footer() {
                                     <h2 className="small-heading text-grey mb-4 font-bold">Services</h2>
                                     <ul className="nav footer-services-nav fill flex-column">
                                         <li className="nav-item my-1">
-                                            <a href="/smart-solutions" className="text-white font-normal pb-1">
-                                                Smart Solutions
-                                            </a>
+                                            <Link href="/smart-solutions" >
+                                                <a className="text-white font-normal pb-1">
+                                                    Smart Solutions
+                                                </a>
+                                            </Link>
+
                                         </li>
                                         <li className="nav-item my-1">
                                             <a href="/data-center" className="text-white font-normal pb-1">
