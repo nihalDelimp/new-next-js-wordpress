@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -146,13 +146,27 @@ function AboutDigitalSolutions(props) {
                      </div>
                      <div className="col-lg-12 animate__animated animate__fadeInDown">
                         <Swiper
-                           modules={[Navigation, Pagination, Scrollbar, A11y]}
-                           spaceBetween={0}
+                           modules={[Navigation, Pagination, Scrollbar, Autoplay]}
+                           spaceBetween={25}
                            slidesPerView={4}
                            navigation
                            loop={true}
                            speed={5000}
-                           autoplay={true}
+                           autoplay={{
+                              delay: 100,
+                              pauseOnMouseEnter: true,
+                           }}
+                           breakpoints={{
+                              640: {
+                                 slidesPerView: 1,
+                              },
+                              1024: {
+                                 slidesPerView: 2,
+                              },
+                              1200: {
+                                 slidesPerView: 4,
+                              },
+                           }}
                         >
 
                            {testimonials.carouselItems && testimonials.carouselItems.length > 0 &&
@@ -186,13 +200,28 @@ function AboutDigitalSolutions(props) {
                   <div className="row pb-4 pt-4 pb-lg-6 pt-lg-6">
                      <div className="col-lg-12 animate__animated animate__fadeInDown">
                         <Swiper
-                           modules={[Navigation, Pagination, Scrollbar, A11y]}
+                           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                            spaceBetween={0}
                            slidesPerView={4}
                            navigation
                            loop={true}
                            speed={5000}
-                           autoplay
+                           autoplay={{
+                              delay: 100,
+                              pauseOnMouseEnter: true,
+                              // disableOnInteraction: true
+                           }}
+                           breakpoints={{
+                              640: {
+                                 slidesPerView: 1,
+                              },
+                              1024: {
+                                 slidesPerView: 2,
+                              },
+                              1200: {
+                                 slidesPerView: 4,
+                              },
+                           }}
                         >
                            {ourPartners.carouselImages && ourPartners.carouselImages.length > 0 &&
                               ourPartners.carouselImages.map((item, index) =>
@@ -237,13 +266,28 @@ function AboutDigitalSolutions(props) {
                   <div className="row pb-4 pt-4 wow" data-wow-duration="0.3s">
                      <div className="col-lg-12 animate__animated animate__fadeInDown">
                         <Swiper
-                           modules={[Navigation, Pagination, Scrollbar, A11y]}
+                           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                            spaceBetween={0}
                            slidesPerView={4}
                            navigation
                            loop={true}
                            speed={5000}
-                           autoplay
+                           autoplay={{
+                              delay: 100,
+                              pauseOnMouseEnter: true,
+                              // disableOnInteraction: true
+                           }}
+                           breakpoints={{
+                              640: {
+                                 slidesPerView: 1,
+                              },
+                              1024: {
+                                 slidesPerView: 2,
+                              },
+                              1200: {
+                                 slidesPerView: 4,
+                              },
+                           }}
                         >
                            {ourTopClients.carouselImages && ourTopClients.carouselImages.length > 0 &&
                               ourTopClients.carouselImages.map((item, index) =>
@@ -290,7 +334,7 @@ function AboutDigitalSolutions(props) {
             </section>
 
             <Footer />
-         </div>
+         </div >
       </>
    )
 }

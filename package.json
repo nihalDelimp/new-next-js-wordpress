@@ -24,7 +24,8 @@
     "serve": "^14.1.2",
     "sweetalert2": "^11.6.5",
     "sweetalert2-react-content": "^5.0.7",
-    "swiper": "^8.4.4"
+    "swiper": "^8.4.4",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "eslint": "7.31.0",

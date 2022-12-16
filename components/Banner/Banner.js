@@ -1,11 +1,7 @@
 
 import Footer from '../Footer/WrapperFooter';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Header from '../Header/Header';
 
@@ -130,13 +126,27 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                                         <div className="swiper-container top-clients-swiper-index">
                                                             <div className="swiper-wrapper">
                                                                 <Swiper
-                                                                    modules={[Navigation, Pagination, Scrollbar, A11y]}
+                                                                    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                                                                     spaceBetween={0}
                                                                     slidesPerView={2}
                                                                     navigation
                                                                     loop={true}
                                                                     speed={5000}
-                                                                    autoplay={true}
+                                                                    autoplay={{
+                                                                        delay: 100,
+                                                                        pauseOnMouseEnter: true,
+                                                                    }}
+                                                                    breakpoints={{
+                                                                        640: {
+                                                                            slidesPerView: 1,
+                                                                        },
+                                                                        1024: {
+                                                                            slidesPerView: 2,
+                                                                        },
+                                                                        1200: {
+                                                                            slidesPerView: 2,
+                                                                        },
+                                                                    }}
                                                                 >
                                                                     {item.images && item.images.length > 0 &&
                                                                         item.images.map((item, index) =>

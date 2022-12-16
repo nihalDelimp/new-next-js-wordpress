@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -110,13 +110,27 @@ function Finance({ financeData }) {
                   <div className="row pb-4 pt-4 wow" data-wow-duration="0.3s">
                      <div className="col-lg-12 animate__animated animate__fadeInDown">
                         <Swiper
-                           modules={[Navigation, Pagination, Scrollbar, A11y]}
+                           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                            spaceBetween={0}
                            slidesPerView={4}
                            navigation
                            loop={true}
                            speed={5000}
-                           autoplay
+                           autoplay={{
+                              delay: 100,
+                              pauseOnMouseEnter: true,
+                           }}
+                           breakpoints={{
+                              640: {
+                                 slidesPerView: 1,
+                              },
+                              1024: {
+                                 slidesPerView: 2,
+                              },
+                              1200: {
+                                 slidesPerView: 4,
+                              },
+                           }}
                         >
                            {financeData[3].carouselImages && financeData[3].carouselImages.length > 0 &&
                               financeData[3].carouselImages.map((item, index) =>
