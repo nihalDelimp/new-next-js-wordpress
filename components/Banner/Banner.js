@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Header from '../Header/Header';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
+
 
 const Banner = ({ banner, video, references, footerSection, singleImageData }) => {
     const [innerHeight, setinnerHeight] = useState(0);
@@ -61,12 +63,14 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                                                 </p>
                                                             </div>
                                                             <div className="col-sm-12 mt-4 mb-2 ">
+                                                                <Link href={item2.bannerUrl}>
                                                                 <a
-                                                                    href={item2.bannerUrl}
+                                                                    // href={item2.bannerUrl}
                                                                     className="btn btn-primary border border-1 rounded-0 px-6 py-3 bg-transparent text-white"
                                                                 >
                                                                     {item2.bannerButtonLabel}
                                                                 </a>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -133,7 +137,7 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                                     <div className="swiper-alfanar">
                                                         <div className="swiper-container top-clients-swiper-index">
                                                             <div className="swiper-wrapper">
-                                                                <Swiper
+                                                            <Swiper
                                                                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                                                                     spaceBetween={0}
                                                                     slidesPerView={2}
@@ -155,7 +159,7 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                                                             slidesPerView: 2,
                                                                         },
                                                                     }}
-                                                                >
+                                                                    >
                                                                     {item.images && item.images.length > 0 &&
                                                                         item.images.map((item, index) =>
                                                                             <SwiperSlide key={index + 1} ><div className="swiper-slide text-center">
@@ -187,7 +191,7 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                                         <div className="col-lg-7 col-md-12">
                                                             <h1 className="font-weight-bold text-white bottom-buffer-2point5rem" style={{ fontSize: '42px' }}>{item.title}</h1>
                                                             <p className="text-white bottom-buffer-2point5rem">{item.description}</p>
-                                                            <div className="align-bottom-content-lg "><a href="/contactus.html" className="btn btn-primary">{item.buttonLabel}</a></div>
+                                                            <div className="align-bottom-content-lg "><Link href={item.url}><a className="btn btn-primary">{item.buttonLabel}</a></Link></div>
                                                         </div>
                                                         <div className="col-lg-5 align-self-center text-lg-right text-center d-none d-lg-block">
                                                             <img className="w-100 mt-5 mb-5" src={item?.image?.sourceUrl} />
