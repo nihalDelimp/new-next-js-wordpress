@@ -34,13 +34,13 @@ function WrapperFooter() {
                                                 Cyber Security
                                             </a>
                                         </li>
-                                        {/* <li className="nav-item my-1">
+                                        <li className="nav-item my-1">
                                             <Link href="/software-defending-network">
                                                 <a className="text-white font-normal pb-1">
                                                     Software Defending Network
                                                 </a>
                                             </Link>
-                                        </li> */}
+                                        </li>
                                         <li className="nav-item my-1">
                                             <a href="/applications" className="text-white font-normal pb-1">
                                                 Applications

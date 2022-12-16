@@ -2,8 +2,8 @@ import { gql } from "@apollo/client";
 import { client } from "../config";
 
 const getSoftwareNetworkData = async () => {
-    const softwareNetworkData = await client.query({
-        query: gql`
+  const softwareNetworkData = await client.query({
+    query: gql`
       query MyQuery {
         pageBy(uri: "${process.env.WORDPRESS_URL}/index.php/software-defending-network") {     
           servicesSection {
@@ -95,8 +95,8 @@ const getSoftwareNetworkData = async () => {
         }
       }
     `,
-    });
-    return softwareNetworkData;
+  });
+  return softwareNetworkData;
 };
 
 export default getSoftwareNetworkData;

@@ -16,9 +16,6 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
     // console.log('section1' , section1)
     return (
         <>
-
-            {/* <div className={section1.bgImageName}>Nihal</div> */}
-
             <Header />
             <ReactFullpage
                 licenseKey='G4K1J-NS516-K5W16-MJ63I-NYLVP'

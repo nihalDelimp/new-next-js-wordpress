@@ -1,3 +1,4 @@
+import Link from "next/link";
 import * as React from "react";
 
 const Header = () => (
@@ -251,11 +252,11 @@ const Header = () => (
                             alfanar Digital solution provides end-to-end network
                             automation across different layers and industries...
                           </p>
-                          {/* <Link href="/software-defending-network/" >
-                          <a className="btn btn-primary">
-                            Learn More
-                          </a>
-                          </Link> */}
+                          <Link href="/software-defending-network/" >
+                            <a className="btn btn-primary">
+                              Learn More
+                            </a>
+                          </Link>
                         </div>
                         <img
                           className="img-fluid mega-menu-image bg-gradient"
