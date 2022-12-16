@@ -8,7 +8,6 @@ import Header from '../Header/Header';
 function DataCenter({ section1, section2, section3, section4, section5 }) {
 
    return (
-
       <>
          <Header />
          <ReactFullpage

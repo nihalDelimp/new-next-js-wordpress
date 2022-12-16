@@ -9,7 +9,8 @@ import Header from '../Header/Header';
 function CyberSecurity({ section1, section2, section3, section4, section5 }) {
 
    return (
-      <><Header />
+      <>
+      <Header />
          <ReactFullpage
             licenseKey='G4K1J-NS516-K5W16-MJ63I-NYLVP'
             responsiveWidth={1024}
