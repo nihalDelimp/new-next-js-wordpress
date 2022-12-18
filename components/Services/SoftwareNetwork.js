@@ -24,7 +24,7 @@ function SoftwareNetwork({ section1, section2, section3, section4, section5, sec
         render={() => {
           return (
             <>
-              <section id="sdn-section_1" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section1?.image?.sourceUrl}) !important` }}>
+              <section id="sdn-section_1" className={`section active bg-gradient bg-size-cover bg-no-repeat bg-center ${section1?.bgImageName}`}>
                 <div id="sdn-container" className="container-lg pt-4 pb-4">
                   <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                     <section id="breadcrum-section">
@@ -61,7 +61,7 @@ function SoftwareNetwork({ section1, section2, section3, section4, section5, sec
                 </div>
               </section>
 
-              <section id="sdn-section_2" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section2?.backgroundImage?.sourceUrl}) !important` }}>
+              <section id="sdn-section_2" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center ${section2?.bgImageName}`}>
                 <div id="sdn-container" className="container-lg">
                   <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                     <div className="row pt-2 pb-2">
@@ -83,7 +83,7 @@ function SoftwareNetwork({ section1, section2, section3, section4, section5, sec
                 </div>
               </section>
 
-              <section id="sdn-section_3" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section3?.backgroundImage?.sourceUrl}) !important` }}>
+              <section id="sdn-section_3" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center ${section3?.bgImageName}`}>
                 <div id="sdn-container" className="container-lg">
                   <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                     <div className="row pt-2 pb-2">
@@ -99,7 +99,7 @@ function SoftwareNetwork({ section1, section2, section3, section4, section5, sec
                 </div>
               </section>
 
-              <section id="sdn-section_4" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section4?.backgroundImage?.sourceUrl}) !important` }} >
+              <section id="sdn-section_4" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center ${section4?.bgImageName}`} >
                 <div id="sdn-container" className="container-lg">
                   <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                     <div className="row pt-2 pb-2">
@@ -115,7 +115,7 @@ function SoftwareNetwork({ section1, section2, section3, section4, section5, sec
                 </div>
               </section>
 
-              <section id="sdn-section_5" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section5?.backgroundImage?.sourceUrl}) !important` }} >
+              <section id="sdn-section_5" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center ${section5?.bgImageName}`} >
                 <div id="sdn-container" className="container-lg">
                   <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                     <div className="row pt-2 pb-2">
@@ -131,7 +131,7 @@ function SoftwareNetwork({ section1, section2, section3, section4, section5, sec
                 </div>
               </section>
 
-              <section id="sdn-section_6" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section6?.backgroundImage?.sourceUrl}) !important` }} >
+              <section id="sdn-section_6" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center ${section6?.bgImageName}`} >
                 <div id="sdn-container" className="container-lg">
                   <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                     <div className="row pt-2 pb-2">

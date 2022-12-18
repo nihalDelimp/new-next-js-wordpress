@@ -9,7 +9,8 @@ const getConsultationServicesData = async () => {
             servicesSection {
                 servicesContent {
               ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection1 {
-                fieldGroupName
+          fieldGroupName
+          bgImageName
           heading
           descriptionSection {
             description
@@ -25,6 +26,7 @@ const getConsultationServicesData = async () => {
         }
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection2 {
             fieldGroupName
+            bgImageName
           backgroundImage {
             sourceUrl
           }
@@ -39,7 +41,8 @@ const getConsultationServicesData = async () => {
           }
         }
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection3 {
-            fieldGroupName
+          fieldGroupName
+          bgImageName
           descriptionWithSubHeading {
             description
             fieldGroupName
@@ -55,8 +58,9 @@ const getConsultationServicesData = async () => {
           }
         }
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection4 {
-            fieldGroupName
+          fieldGroupName
           heading
+          bgImageName
           image {
             sourceUrl
           }

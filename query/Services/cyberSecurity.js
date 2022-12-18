@@ -11,6 +11,7 @@ const getCyberSecurityData = async () => {
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection4 {
           fieldGroupName
           heading
+          bgImageName
           descriptionWithIcon {
             description
             heading
@@ -23,6 +24,7 @@ const getCyberSecurityData = async () => {
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection3 {
           fieldGroupName
           heading
+          bgImageName
           descriptionWithSubHeading {
             description
             heading
@@ -36,6 +38,7 @@ const getCyberSecurityData = async () => {
         }
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection2 {
           fieldGroupName
+          bgImageName
           backgroundImage {
             sourceUrl
           }
@@ -50,6 +53,7 @@ const getCyberSecurityData = async () => {
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection1 {
           fieldGroupName
           heading
+          bgImageName
           backgroundImage {
             sourceUrl
           }
@@ -63,6 +67,7 @@ const getCyberSecurityData = async () => {
         }
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsTextSlider {
           fieldGroupName
+          bgImageName
           sliderItems {
             sliderItemsContent {
               ... on Page_Servicessection_ServicesContent_ServicesSolutionsTextSlider_sliderItems_SliderItemsContent_HeadingOne {

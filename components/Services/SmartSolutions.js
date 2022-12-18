@@ -13,6 +13,8 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
     console.log('SmartSolutionsTTTTTTTTTTTTT4', section4)
     console.log('SmartSolutionsTTTTTTTTTTTTT5', section5)
 
+    const sectionTwoFirstIndex = section2 &&  section2.sliderItems && section2.sliderItems[0] && section2.sliderItems[0].sliderItemsContent
+
     // console.log('section1' , section1)
     return (
         <>
@@ -31,7 +33,7 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
                 render={() => {
                     return (
                         <>
-                            <section id="smart-solutions-section_1" className={`section active bg-gradient bg-size-cover bg-no-repeat bg-center ${section1.bgImageName}`}>
+                            <section id="smart-solutions-section_1" className={`section active bg-gradient bg-size-cover bg-no-repeat bg-center ${section1?.bgImageName}`}>
                                 <div id="smart-solutions-container" className="container-lg pt-4 pb-4">
                                     <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                                         <section id="breadcrum-section">
@@ -57,28 +59,30 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
                             </section>
 
 
-                            <section id="smart-solutions-section_2" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center  ${section2.bgImageName}`} >
-
+                            <section id="smart-solutions-section_2" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center  ${section2?.bgImageName}`} >
+                                {sectionTwoFirstIndex && sectionTwoFirstIndex.length > 0 &&
                                 <section id="" className="slide slide bg-size-cover bg-no-repeat fp-slide"  >
                                     <div id="smart-solutions-container" className="container-lg">
                                         <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
                                             <div className="row pt-2 pb-2">
                                                 <div className="col-lg-12 text-center text-lg-left mt-2 mb-2">
-                                                    <h1 className="text-white font-bold bottom-buffer-2point5rem">Beyond smart cities</h1>
-                                                    <p className="text-white big mb-2 mt-2">We create smart cities that will redefine urban power</p>
-                                                    <p className="text-white big mb-2 mt-2">The demand for smart city solutions has arisen as a result of the Saudi 2030 vision. alfanar Digital Solutions offers wide range of smart solutions in many different use cases.Smart cities are considered the future facilitators in boosting economic growth and increasing the quality of life for inhabitants.</p>
+                                                    <h1 className="text-white font-bold bottom-buffer-2point5rem">{sectionTwoFirstIndex[0]?.mainHeadingH1}</h1>
+                                                    <p className="text-white big mb-2 mt-2"> {sectionTwoFirstIndex[1]?.description}.</p>
+                                                    <p className="text-white big mb-2 mt-2">{sectionTwoFirstIndex[2]?.description}.</p>
                                                 </div>
                                                 <div className="col-lg-12 text-center text-lg-left mt-3 mb-2">
-                                                    <h2 className="text-white font-bold bottom-buffer-2point5rem">Smart solutions leading to smart living:</h2>
-                                                    <h3 className="text-white font-bold mb-2">Smart Metering</h3>
-                                                    <p className="text-white big mb-2 mt-2">Fully automated, consumption real time information, remote controlling and faster power restoring.The smart meter data collecting system is feature-rich and compatible with numerous types of meters.</p>
-                                                    <h3 className="text-white font-bold mb-2 mt-3">Smart Lighting</h3>
-                                                    <p className="text-white big mb-2 mt-2">Wireless Lighting Control, Wireless Mesh Transceiver, RGBA Notification, Image Sensors, Water Level Sensor, Mobile Device Charger and more</p>
+                                                    <h2 className="text-white font-bold bottom-buffer-2point5rem">{sectionTwoFirstIndex[3]?.secondaryHeadingH2} :</h2>
+                                                    <h3 className="text-white font-bold mb-2">{sectionTwoFirstIndex[4]?.headingLabelThree}</h3>
+                                                    <p className="text-white big mb-2 mt-2">{sectionTwoFirstIndex[5]?.description}.</p>
+                                                    <h3 className="text-white font-bold mb-2 mt-3">{sectionTwoFirstIndex[6]?.headingLabelThree } </h3>
+                                                    <p className="text-white big mb-2 mt-2">{sectionTwoFirstIndex[7]?.description}.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </section>
+                                }
+
                                 <section id="" className="slide slide bg-size-cover bg-no-repeat fp-slide">
                                     <div id="smart-solutions-container" className="container-lg">
                                         <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
@@ -130,8 +134,7 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
                             </section>
 
 
-                            <section id="smart-solutions-section_3" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section3?.backgroundImage?.sourceUrl}) !important` }} >
-
+                            <section id="smart-solutions-section_3" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center  ${section3.bgImageName}`}>
                                 <section id="" className="slide slide bg-size-cover bg-no-repeat fp-slide">
                                     <div id="smart-solutions-container" className="container-lg">
                                         <div className="mx-lg-6 mx-4 pt-lg-0 pb-lg-0 pt-5 pb-5">
@@ -180,7 +183,7 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
                             </section>
 
 
-                            <section id="smart-solutions-section_4" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section4?.backgroundImage?.sourceUrl}) !important` }} >
+                            <section id="smart-solutions-section_4" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center  ${section4?.bgImageName}`}>
 
                                 <section id="" className="slide slide bg-size-cover bg-no-repeat fp-slide">
                                     <div id="smart-solutions-container" className="container-lg">
@@ -229,7 +232,7 @@ function SmartSolutions({ section1, section2, section3, section4, section5 }) {
 
 
 
-                            <section id="smart-solutions-section_5" className="section bg-gradient bg-size-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${section5?.backgroundImage?.sourceUrl}) !important` }}  >
+                            <section id="smart-solutions-section_5" className={`section bg-gradient bg-size-cover bg-no-repeat bg-center  ${section5?.bgImageName}`}  >
 
                                 <section id="" className="slide slide bg-size-cover bg-no-repeat fp-slide" >
                                     <div id="smart-solutions-container" className="container-lg">

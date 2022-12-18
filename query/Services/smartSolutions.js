@@ -12,6 +12,7 @@ const getSmartSolutionData = async () => {
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection4 {
           fieldGroupName
           heading
+          bgImageName
           descriptionWithIcon {
             description
             heading
@@ -24,6 +25,7 @@ const getSmartSolutionData = async () => {
         ... on Page_Servicessection_ServicesContent_ServicesSolutionsSection3 {
           fieldGroupName
           heading
+          bgImageName
           descriptionWithSubHeading {
             description
             heading

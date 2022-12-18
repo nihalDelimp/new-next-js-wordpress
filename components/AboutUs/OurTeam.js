@@ -1,10 +1,12 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
+import HeaderTwo from '../Header/HeaderTwo';
 
 function OurTeam({ headerData, resData }) {
 
    return (
-      <div >
+      <>
+      <HeaderTwo />
          <section id="our-team-section_1" className="wow fadeInUp  sectionsection bg-gradient bg-size-cover bg-no-repeat bg-center fp-section fp-table  fp-completely">
             <div id="our-team-container" className="container-lg pt-4 pb-4">
                <div className="row pt-8 pb-4 pt-lg-1 pb-lg-1">
@@ -53,7 +55,7 @@ function OurTeam({ headerData, resData }) {
             </div>
          </section>
          <Footer />
-      </div>
+      </>
    )
 }
 
