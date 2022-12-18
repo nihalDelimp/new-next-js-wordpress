@@ -31,12 +31,12 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                 render={() => {
                     return (
                         <>
-                            <section
+                            {/* <section
                                 className="section bg-size-cover bg-no-repeat bg-center"
                             >
                                 <iframe src="https://yourstory.click/home-hero/" width="100%"
                                     height={innerHeight}></iframe>
-                            </section>
+                            </section> */}
                             {
                                 banner.map((item) => (
                                     item.bannerItems && item.bannerItems.length > 0 && item.bannerItems.map((item2, index2) => {
