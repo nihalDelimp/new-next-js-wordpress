@@ -4,17 +4,15 @@ import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Header from '../Header/Header';
-import { useEffect, useState } from 'react';
 import Link from 'next/link';
-
+import { useThree } from "../../hooks/useThree";
+import ThreeApp from "../../threeJs/ThreeApp";
+import TrainSliding from './TrainSliding';
 
 const Banner = ({ banner, video, references, footerSection, singleImageData }) => {
-    const [innerHeight, setinnerHeight] = useState(0);
-    useEffect(() => {
-        if (typeof window !== undefined) {
-            setinnerHeight(window.innerHeight)
-        }
-    }, []);
+
+    const canvas = useThree(ThreeApp);
+
 
     return (
         <>
@@ -33,12 +31,15 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                 render={() => {
                     return (
                         <>
-                            {/* <section
+                            <section
                                 className="section bg-size-cover bg-no-repeat bg-center"
                             >
-                                <iframe src="https://yourstory.click/home-hero/" width="100%"
-                                    height={innerHeight}></iframe>
-                            </section> */}
+                                <div ref={canvas} style={{
+                                    height: "100%", width: "100%",
+                                    backgroundImage: "linear-gradient(#0c77e2, #ffffff)"
+                                }} />
+                                <TrainSliding />
+                            </section>
                             {
                                 banner.map((item) => (
                                     item.bannerItems && item.bannerItems.length > 0 && item.bannerItems.map((item2, index2) => {
@@ -64,12 +65,12 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                                             </div>
                                                             <div className="col-sm-12 mt-4 mb-2 ">
                                                                 <Link href={item2.bannerUrl}>
-                                                                <a
-                                                                    // href={item2.bannerUrl}
-                                                                    className="btn btn-primary border border-1 rounded-0 px-6 py-3 bg-transparent text-white"
-                                                                >
-                                                                    {item2.bannerButtonLabel}
-                                                                </a>
+                                                                    <a
+                                                                        // href={item2.bannerUrl}
+                                                                        className="btn btn-primary border border-1 rounded-0 px-6 py-3 bg-transparent text-white"
+                                                                    >
+                                                                        {item2.bannerButtonLabel}
+                                                                    </a>
                                                                 </Link>
                                                             </div>
                                                         </div>
@@ -137,7 +138,7 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                                     <div className="swiper-alfanar">
                                                         <div className="swiper-container top-clients-swiper-index">
                                                             <div className="swiper-wrapper">
-                                                            <Swiper
+                                                                <Swiper
                                                                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                                                                     spaceBetween={0}
                                                                     slidesPerView={2}
@@ -159,7 +160,7 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                                                                             slidesPerView: 2,
                                                                         },
                                                                     }}
-                                                                    >
+                                                                >
                                                                     {item.images && item.images.length > 0 &&
                                                                         item.images.map((item, index) =>
                                                                             <SwiperSlide key={index + 1} ><div className="swiper-slide text-center">
@@ -207,6 +208,7 @@ const Banner = ({ banner, video, references, footerSection, singleImageData }) =
                         </>
                     );
                 }} />
+            <script src='/static/TweenMax.js'></script>
         </>
     );
 };

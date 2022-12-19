@@ -1,5 +1,5 @@
 import "../styles/theme.css";
-
+import '../styles/customnew.css'
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { useEffect } from "react";
 const isServer = typeof window === 'undefined'

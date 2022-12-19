@@ -1,0 +1,110 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Building-Lights",
+            "scale" : [
+                0.02539999969303608,
+                0.02539999969303608,
+                0.02539999969303608
+            ],
+            "translation" : [
+                -0.3957889974117279,
+                2.9180219173431396,
+                -3.4571425914764404
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 33600,
+            "max" : [
+                205.78553771972656,
+                70.74984741210938,
+                41.921661376953125
+            ],
+            "min" : [
+                -228.19593811035156,
+                -60.534786224365234,
+                -81.92831420898438
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 33600,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 33600,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 50400,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 403200,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 403200,
+            "byteOffset" : 403200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 268800,
+            "byteOffset" : 806400
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 100800,
+            "byteOffset" : 1075200
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1176000,
+            "uri" : "BuildingLights.bin"
+        }
+    ]
+}
