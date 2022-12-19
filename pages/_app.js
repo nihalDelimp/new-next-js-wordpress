@@ -1,4 +1,5 @@
 import "../styles/theme.css";
+
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { useEffect } from "react";
 const isServer = typeof window === 'undefined'
@@ -21,7 +22,7 @@ function MyApp({ Component, pageProps }) {
 		<>
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 			<link rel="stylesheet"
-				href="https://dev-acf-testing.pantheonsite.io/wp-content/themes/siard-wp-theme/inc/custom-styles.css?ver=1.0.0"
+				href="https://wordpress-next-webapp.azurewebsites.net/wp-content/themes/siard-wp-theme/inc/custom-styles.css?ver=1.0.0"
 			/>
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" />
 
